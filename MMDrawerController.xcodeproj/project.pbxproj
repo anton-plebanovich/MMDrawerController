@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B0666814210744E500838D58 /* MMDrawerControllerFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = B0666812210744E500838D58 /* MMDrawerControllerFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B06668232107454C00838D58 /* MMDrawerController.h in Headers */ = {isa = PBXBuildFile; fileRef = B066681A2107454B00838D58 /* MMDrawerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0666814210744E500838D58 /* MMDrawerController.h in Headers */ = {isa = PBXBuildFile; fileRef = B0666812210744E500838D58 /* MMDrawerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B06668232107454C00838D58 /* _MMDrawerController.h in Headers */ = {isa = PBXBuildFile; fileRef = B066681A2107454B00838D58 /* _MMDrawerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B06668242107454C00838D58 /* UIViewController+MMDrawerController.h in Headers */ = {isa = PBXBuildFile; fileRef = B066681B2107454B00838D58 /* UIViewController+MMDrawerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B06668252107454C00838D58 /* MMDrawerController+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = B066681C2107454B00838D58 /* MMDrawerController+Subclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B06668262107454C00838D58 /* MMDrawerVisualState.h in Headers */ = {isa = PBXBuildFile; fileRef = B066681D2107454B00838D58 /* MMDrawerVisualState.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -21,9 +21,9 @@
 
 /* Begin PBXFileReference section */
 		B066680F210744E500838D58 /* MMDrawerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMDrawerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0666812210744E500838D58 /* MMDrawerControllerFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMDrawerControllerFramework.h; sourceTree = "<group>"; };
+		B0666812210744E500838D58 /* MMDrawerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
 		B0666813210744E500838D58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B066681A2107454B00838D58 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		B066681A2107454B00838D58 /* _MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _MMDrawerController.h; sourceTree = "<group>"; };
 		B066681B2107454B00838D58 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
 		B066681C2107454B00838D58 /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
 		B066681D2107454B00838D58 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
@@ -64,13 +64,13 @@
 		B0666811210744E500838D58 /* MMDrawerController */ = {
 			isa = PBXGroup;
 			children = (
+				B066681A2107454B00838D58 /* _MMDrawerController.h */,
 				B0666813210744E500838D58 /* Info.plist */,
 				B06668212107454C00838D58 /* MMDrawerBarButtonItem.h */,
 				B066681E2107454B00838D58 /* MMDrawerBarButtonItem.m */,
-				B066681A2107454B00838D58 /* MMDrawerController.h */,
+				B0666812210744E500838D58 /* MMDrawerController.h */,
 				B06668222107454C00838D58 /* MMDrawerController.m */,
 				B066681C2107454B00838D58 /* MMDrawerController+Subclass.h */,
-				B0666812210744E500838D58 /* MMDrawerControllerFramework.h */,
 				B066681D2107454B00838D58 /* MMDrawerVisualState.h */,
 				B066681F2107454B00838D58 /* MMDrawerVisualState.m */,
 				B066681B2107454B00838D58 /* UIViewController+MMDrawerController.h */,
@@ -86,12 +86,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0666814210744E500838D58 /* MMDrawerController.h in Headers */,
 				B06668262107454C00838D58 /* MMDrawerVisualState.h in Headers */,
 				B06668242107454C00838D58 /* UIViewController+MMDrawerController.h in Headers */,
 				B06668252107454C00838D58 /* MMDrawerController+Subclass.h in Headers */,
-				B0666814210744E500838D58 /* MMDrawerControllerFramework.h in Headers */,
 				B066682A2107454C00838D58 /* MMDrawerBarButtonItem.h in Headers */,
-				B06668232107454C00838D58 /* MMDrawerController.h in Headers */,
+				B06668232107454C00838D58 /* _MMDrawerController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

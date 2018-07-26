@@ -20,7 +20,7 @@
 
 
 #import <Foundation/Foundation.h>
-#import "MMDrawerController.h"
+#import "_MMDrawerController.h"
 
 /**
  `MMDrawerVisualState` provides prebuilt visual state update blocks that can be used in the callback block of `MMDrawerController` for drawer animation.

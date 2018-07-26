@@ -19,7 +19,7 @@
 // THE SOFTWARE.
 
 
-#import "MMDrawerController.h"
+#import "_MMDrawerController.h"
 #import "UIViewController+MMDrawerController.h"
 
 #import <QuartzCore/QuartzCore.h>
