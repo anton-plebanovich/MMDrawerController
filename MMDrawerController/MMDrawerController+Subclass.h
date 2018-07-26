@@ -18,7 +18,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import "MMDrawerController.h"
+#import "_MMDrawerController.h"
 
 /**
  This class extension is designed for use by subclasses of `MMDrawerController` to customize the functionality to support a specific use-case by a developer. When importing this file, there is no need to also call `#import MMDrawerController.h`.

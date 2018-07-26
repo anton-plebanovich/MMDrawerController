@@ -19,6 +19,6 @@ FOUNDATION_EXPORT const unsigned char MMDrawerControllerVersionString[];
 
 #import <MMDrawerController/MMDrawerBarButtonItem.h>
 #import <MMDrawerController/MMDrawerController+Subclass.h>
-#import <MMDrawerController/MMDrawerController.h>
 #import <MMDrawerController/MMDrawerVisualState.h>
 #import <MMDrawerController/UIViewController+MMDrawerController.h>
+#import <MMDrawerController/_MMDrawerController.h>
